@@ -1,0 +1,10 @@
+The system must provide secure user authentication for mortgage loan applications when users have valid credentials.
+If credit score is above 650, then automatically approve the preliminary assessment for mortgage applications.
+The interest rate must be calculated as the base rate plus risk premium, where risk premium is determined by credit score and loan amount.
+The system shall process mortgage applications within 5 seconds for 95% of requests under normal load conditions.
+Users must be able to upload financial documents in PDF format with maximum size of 10MB per document.
+When loan amount exceeds $500,000, additional documentation and manager approval are required before processing.
+All customer financial data must be encrypted at rest and in transit using AES-256 encryption standards.
+The system must verify that applicants are not on financial interdiction lists before approving any loan applications.
+The system shall maintain a complete audit trail of all changes to loan applications for regulatory compliance.
+The application interface must be responsive and functional on mobile devices with screen sizes from 320px to 768px width.

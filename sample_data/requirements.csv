@@ -1,0 +1,11 @@
+id,name,description,type,priority,status,tags
+REQ-001,User Authentication,The system must provide secure user authentication for mortgage loan applications when users have valid credentials.,functional,high,active,"authentication,security,mortgage"
+REQ-002,Credit Score Validation,"If credit score is above 650, then automatically approve the preliminary assessment for mortgage applications.",business_rule,high,active,"credit,validation,business-rule"
+REQ-003,Interest Rate Calculation,"The interest rate must be calculated as the base rate plus risk premium, where risk premium is determined by credit score and loan amount.",business_rule,high,active,"calculation,interest,mortgage"
+REQ-004,System Performance,The system shall process mortgage applications within 5 seconds for 95% of requests under normal load conditions.,non_functional,medium,active,"performance,response-time"
+REQ-005,Document Upload,Users must be able to upload financial documents in PDF format with maximum size of 10MB per document.,functional,medium,active,"upload,documents,pdf"
+REQ-006,Loan Amount Constraints,"When loan amount exceeds $500,000, additional documentation and manager approval are required before processing.",business_rule,high,active,"constraints,approval,high-value"
+REQ-007,Data Encryption,All customer financial data must be encrypted at rest and in transit using AES-256 encryption standards.,security,high,active,"encryption,security,data-protection"
+REQ-008,Interdiction Check,The system must verify that applicants are not on financial interdiction lists before approving any loan applications.,compliance,critical,active,"compliance,interdiction,verification"
+REQ-009,Audit Trail,The system shall maintain a complete audit trail of all changes to loan applications for regulatory compliance.,non_functional,high,active,"audit,compliance,logging"
+REQ-010,Mobile Compatibility,The application interface must be responsive and functional on mobile devices with screen sizes from 320px to 768px width.,usability,medium,active,"mobile,responsive,ui"

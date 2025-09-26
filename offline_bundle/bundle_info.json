@@ -1,0 +1,8 @@
+{
+  "name": "Jama Python MCP Server Offline Bundle",
+  "version": "1.0.0",
+  "created": "Thu Sep 25 22:46:08 PDT 2025",
+  "python_packages": 140,
+  "spacy_model": "en_core_web_sm",
+  "total_size_mb": 237.66847801208496
+}

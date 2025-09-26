@@ -1,0 +1,13 @@
+mcp
+spacy
+pandas
+numpy
+aiohttp
+pydantic
+python-dotenv
+sentence-transformers
+transformers
+scikit-learn
+openpyxl
+nltk
+textblob

@@ -1,0 +1,41 @@
+2025-09-25 21:04:51,139 - __main__ - INFO - Jama Python MCP Server starting up...
+2025-09-25 21:04:51,140 - __main__ - ERROR - Failed to start server: JAMA_BASE_URL environment variable is required
+2025-09-25 21:04:51,140 - __main__ - ERROR - Error during shutdown: cannot access local variable 'server' where it is not associated with a value
+2025-09-25 21:08:35,553 - __main__ - INFO - Jama Python MCP Server starting up...
+2025-09-25 21:08:35,553 - __main__ - ERROR - Failed to start server: JAMA_BASE_URL environment variable is required
+2025-09-25 21:08:35,553 - __main__ - ERROR - Error during shutdown: cannot access local variable 'server' where it is not associated with a value
+2025-09-25 21:14:46,141 - __main__ - INFO - Jama Python MCP Server starting up...
+2025-09-25 21:14:46,141 - __main__ - ERROR - Failed to start server: JAMA_BASE_URL environment variable is required
+2025-09-25 21:14:46,141 - __main__ - ERROR - Error during shutdown: cannot access local variable 'server' where it is not associated with a value
+2025-09-25 22:31:24,487 - __main__ - INFO - Jama Python MCP Server starting up...
+2025-09-25 22:31:24,487 - __main__ - INFO - Configuration loaded from environment
+2025-09-25 22:31:24,487 - src.jama_mcp_server.mcp_server - INFO - Starting Jama Python MCP Server...
+2025-09-25 22:31:24,487 - src.jama_mcp_server.mcp_server - INFO - Initializing Jama Python MCP Server...
+2025-09-25 22:31:24,529 - src.jama_mcp_server.jama_client - ERROR - Failed to connect to Jama Connect: Cannot connect to host something.jamacloud.com:443 ssl:default [nodename nor servname provided, or not known]
+2025-09-25 22:31:24,531 - src.jama_mcp_server.jama_client - ERROR - Failed to connect to Jama Connect: Cannot connect to host something.jamacloud.com:443 ssl:default [nodename nor servname provided, or not known]
+2025-09-25 22:31:24,531 - src.jama_mcp_server.mcp_server - WARNING - Jama connection warning: Connection failed: Cannot connect to host something.jamacloud.com:443 ssl:default [nodename nor servname provided, or not known]
+2025-09-25 22:31:24,531 - src.jama_mcp_server.nlp_processor - INFO - Initializing NLP processor...
+2025-09-25 22:31:24,531 - src.jama_mcp_server.nlp_processor - INFO - Downloading NLTK data...
+2025-09-25 22:31:25,323 - src.jama_mcp_server.nlp_processor - INFO - Loaded spaCy model: en_core_web_sm
+2025-09-25 22:31:25,357 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 22:31:27,145 - src.jama_mcp_server.nlp_processor - INFO - Loaded sentence transformer: all-MiniLM-L6-v2
+2025-09-25 22:32:35,166 - src.jama_mcp_server.nlp_processor - INFO - NLP processor initialized successfully
+2025-09-25 22:32:35,166 - src.jama_mcp_server.mcp_server - INFO - ✓ NLP processor initialized
+2025-09-25 22:32:35,186 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-25 22:32:35,951 - src.jama_mcp_server.vector_store - INFO - Created new ChromaDB collection: jama_requirements
+2025-09-25 22:32:35,951 - src.jama_mcp_server.vector_store - INFO - ChromaDB store initialized successfully
+2025-09-25 22:32:35,951 - src.jama_mcp_server.mcp_server - INFO - ✓ Vector store initialized (chroma)
+2025-09-25 22:32:35,951 - src.jama_mcp_server.mcp_server - INFO - 🚀 Jama Python MCP Server initialized successfully
+2025-09-25 22:32:35,951 - src.jama_mcp_server.mcp_server - INFO - MCP Server is ready to accept requests
+2025-09-25 22:32:35,951 - __main__ - INFO - ✅ Server initialization complete
+2025-09-25 22:32:35,951 - __main__ - INFO - Server configuration:
+2025-09-25 22:32:35,951 - __main__ - INFO -   - Jama URL: https://something.jamacloud.com
+2025-09-25 22:32:35,952 - __main__ - INFO -   - NLP Model: en_core_web_sm
+2025-09-25 22:32:35,952 - __main__ - INFO -   - Vector DB: enabled (chroma)
+2025-09-25 22:32:35,952 - __main__ - INFO -   - GPU: disabled
+2025-09-25 22:32:35,952 - __main__ - INFO - Server is running. Press Ctrl+C to stop...
+2025-09-25 22:33:10,591 - src.jama_mcp_server.mcp_server - INFO - Shutting down Jama Python MCP Server...
+2025-09-25 22:33:10,591 - src.jama_mcp_server.nlp_processor - INFO - NLP processor closed
+2025-09-25 22:33:10,592 - src.jama_mcp_server.vector_store - INFO - ChromaDB store closed
+2025-09-25 22:33:10,592 - src.jama_mcp_server.mcp_server - INFO - Server shutdown complete
+2025-09-25 22:33:10,592 - __main__ - INFO - Server shutdown completed

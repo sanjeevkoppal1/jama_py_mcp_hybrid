@@ -1,0 +1,94 @@
+{
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "name": "User Authentication",
+      "description": "The system must provide secure user authentication for mortgage loan applications when users have valid credentials.",
+      "type": "functional",
+      "priority": "high",
+      "status": "active",
+      "tags": "authentication,security,mortgage"
+    },
+    {
+      "id": "REQ-002",
+      "name": "Credit Score Validation",
+      "description": "If credit score is above 650, then automatically approve the preliminary assessment for mortgage applications.",
+      "type": "business_rule",
+      "priority": "high",
+      "status": "active",
+      "tags": "credit,validation,business-rule"
+    },
+    {
+      "id": "REQ-003",
+      "name": "Interest Rate Calculation",
+      "description": "The interest rate must be calculated as the base rate plus risk premium, where risk premium is determined by credit score and loan amount.",
+      "type": "business_rule",
+      "priority": "high",
+      "status": "active",
+      "tags": "calculation,interest,mortgage"
+    },
+    {
+      "id": "REQ-004",
+      "name": "System Performance",
+      "description": "The system shall process mortgage applications within 5 seconds for 95% of requests under normal load conditions.",
+      "type": "non_functional",
+      "priority": "medium",
+      "status": "active",
+      "tags": "performance,response-time"
+    },
+    {
+      "id": "REQ-005",
+      "name": "Document Upload",
+      "description": "Users must be able to upload financial documents in PDF format with maximum size of 10MB per document.",
+      "type": "functional",
+      "priority": "medium",
+      "status": "active",
+      "tags": "upload,documents,pdf"
+    },
+    {
+      "id": "REQ-006",
+      "name": "Loan Amount Constraints",
+      "description": "When loan amount exceeds $500,000, additional documentation and manager approval are required before processing.",
+      "type": "business_rule",
+      "priority": "high",
+      "status": "active",
+      "tags": "constraints,approval,high-value"
+    },
+    {
+      "id": "REQ-007",
+      "name": "Data Encryption",
+      "description": "All customer financial data must be encrypted at rest and in transit using AES-256 encryption standards.",
+      "type": "security",
+      "priority": "high",
+      "status": "active",
+      "tags": "encryption,security,data-protection"
+    },
+    {
+      "id": "REQ-008",
+      "name": "Interdiction Check",
+      "description": "The system must verify that applicants are not on financial interdiction lists before approving any loan applications.",
+      "type": "compliance",
+      "priority": "critical",
+      "status": "active",
+      "tags": "compliance,interdiction,verification"
+    },
+    {
+      "id": "REQ-009",
+      "name": "Audit Trail",
+      "description": "The system shall maintain a complete audit trail of all changes to loan applications for regulatory compliance.",
+      "type": "non_functional",
+      "priority": "high",
+      "status": "active",
+      "tags": "audit,compliance,logging"
+    },
+    {
+      "id": "REQ-010",
+      "name": "Mobile Compatibility",
+      "description": "The application interface must be responsive and functional on mobile devices with screen sizes from 320px to 768px width.",
+      "type": "usability",
+      "priority": "medium",
+      "status": "active",
+      "tags": "mobile,responsive,ui"
+    }
+  ]
+}
